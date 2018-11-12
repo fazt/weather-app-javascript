@@ -1,2 +1,2 @@
 # Weather App Javascript
-[](docs/screenshot.png)
+![](./docs/screenshot.png)
