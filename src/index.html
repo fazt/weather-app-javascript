@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-md-4 mx-auto text-center">
+          <!-- WEATHER CARD -->
+          <div class="card">
+            <div class="card-body">
+              <h1 id="weather-location" class="h3"></h1>
+              <h3 id="weather-description" class="h4"></h3>
+              <h3 id="weather-string"></h3>
+              <ul class="list-group mt-3">
+                <li id="weather-humidity" class="list-group-item"></li>
+                <li id="weather-wind" class="list-group-item"></li>
+              </ul>
+            </div>
+          </div>
+          <!-- WEATHER FORM -->
+          <div class="card mt-4">
+            <div class="card-body">
+              <form id="w-form">
+                <div class="form-group">
+                  <input type="text" id="city" class="form-control" placeholder="City" autofocus>
+                </div>
+                <div class="form-group">
+                  <input type="text" id="countryCode" class="form-control" placeholder="Country Code">
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-dark btn-block" id="w-change-btn">
+                    Save Changes
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
